@@ -1,0 +1,118 @@
+/* Header styles */
+.header {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Set the width to cover the full width of the page */
+    /*height: 100vh;*/
+    object-fit: cover;
+}
+
+.header-content {
+    position: absolute;
+    top: 20px; /* Adjust this value to control the distance from the top */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    color: #fff; /* Set your header text color */
+    text-align: center;
+}
+
+
+/* Logo section styles */
+.logoSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logoSection div {
+    text-align: center;
+}
+
+.logoSection img {
+    width: 150px; /* Set your image size */
+    height: 150px; /* Set your image size */
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff; /* Set your border color */
+}
+
+/* Owner section styles */
+.ownerSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+.ownerSection div {
+    text-align: center;
+}
+
+.ownerSection img {
+    width: 150px; /* Set your image size */
+    height: 150px; /* Set your image size */
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff; /* Set your border color */
+}
+
+.ownerSection p {
+    margin-top: 10px;
+}
+
+/* Description section styles */
+.descriptionSection {
+    background-color: #000; /* Set your description section background color */
+    color: #fff; /* Set your description text color */
+    padding: 40px;
+    text-align: center;
+}
+
+/* Contact section styles */
+.contactSection {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Map section styles */
+.mapSection {
+    background-color: #000; /* Set your map section background color */
+    color: #fff; /* Set your map text color */
+    padding: 40px;
+    text-align: center;
+}
+
+/*contactInfo is a <p> tag and contain <a> tag and it contains <strong> tag make <a> tag black*/
+.contactInfo {
+    color: #000000;
+}
+
+.descriptionTitle {
+    font-size: xx-large;
+}
+
+.descriptionText {
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+.contactTitle{
+    font-size: x-large;
+}
+
+.contactText{
+    font-size: large;
+}
+
+.descriptionHeader{
+    font-size: xxx-large;
+    font-weight: lighter;
+}
