@@ -3,15 +3,6 @@ import styles from '../styles/home.module.css';
 export default function Home() {
     return (
         <div>
-            {/*<header className={styles.header}>*/}
-            {/*    /!* Add your menu here *!/*/}
-            {/*    <section className={styles.logoSection}>*/}
-            {/*        <div>*/}
-            {/*            <img className={styles.logo} src="/logo.png" alt="logo"/>*/}
-            {/*        </div>*/}
-            {/*    </section>*/}
-            {/*</header>*/}
-
             <header className={styles.header}>
                 <div className={styles.headerContent}>
                     <section className={styles.logoSection}>
