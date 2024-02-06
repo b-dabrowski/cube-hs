@@ -5,10 +5,18 @@ export default function Document() {
         <Html lang="en">
             <Head>
                 <title>WhiteCube - Barber Augustów</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                <meta charSet="UTF-8"/>
+                <meta name="language" content="pl"/>
+                <meta name="robots" content="index, nofollow"/>
+                <meta name="description"
+                      content="WhiteCube - Miejsce, gdzie tradycja spotyka nowoczesność. Nasz salon fryzjerski w Augustowie oferuje profesjonalne usługi barberingowe. Doświadczeni fryzjerzy zapewnią Ci doskonałą fryzurę, ścinając włosy z pasją i precyzją. Odwiedź nas, aby poczuć się pewnie i stylowo!"/>
+
+
             </Head>
             <body>
             <Main/>
-            <NextScript />
+            <NextScript/>
             </body>
         </Html>
     )
