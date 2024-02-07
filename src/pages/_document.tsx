@@ -10,9 +10,7 @@ export default function Document() {
                 <meta name="language" content="pl"/>
                 <meta name="robots" content="index, nofollow"/>
                 <meta name="description"
-                      content="WhiteCube - Miejsce, gdzie tradycja spotyka nowoczesność. Nasz salon fryzjerski w Augustowie oferuje profesjonalne usługi barberingowe. Doświadczeni fryzjerzy zapewnią Ci doskonałą fryzurę, ścinając włosy z pasją i precyzją. Odwiedź nas, aby poczuć się pewnie i stylowo!"/>
-
-
+                      content="WhiteCube - Barber Augustów to miejsce, gdzie tradycja spotyka nowoczesność. Nasz salon fryzjerski w Augustowie oferuje profesjonalne usługi barberingowe. Doświadczeni fryzjerzy zapewnią Ci doskonałą fryzurę, ścinając włosy z pasją i precyzją. Odwiedź nas, aby poczuć się pewnie i stylowo!"/>
             </Head>
             <body>
             <Main/>

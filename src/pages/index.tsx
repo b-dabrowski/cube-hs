@@ -7,7 +7,7 @@ export default function Home() {
                 <div className={styles.headerContent}>
                     <section className={styles.logoSection}>
                         <div>
-                            <img className={styles.logo} src="/logo.png" alt="logo"/>
+                            <img className={styles.logo} src="/logo.jpeg" alt="logo"/>
                         </div>
                     </section>
                 </div>
@@ -32,7 +32,7 @@ export default function Home() {
 
             <section className={styles.ownerSection}>
                 <div>
-                    <img src="/czeyzer.png" alt="czeyzer"/>
+                    <img src="/czeyzer.png" alt="czeyzer barber foto"/>
                     <p>
                         <a className={styles.contactInfo} href={'https://www.instagram.com/czeyzer/'}>
                             <strong>@czeyzer</strong>
@@ -43,7 +43,7 @@ export default function Home() {
                     </p>
                 </div>
                 <div>
-                    <img src="/donpavko.png" alt="donpavko"/>
+                    <img src="/donpavko.png" alt="donpavko barber foto"/>
                     <p>
                         <a className={styles.contactInfo} href={'https://www.instagram.com/donpavko/'}>
                             <strong>@donpavko</strong>
