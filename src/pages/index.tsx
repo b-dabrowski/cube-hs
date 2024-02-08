@@ -1,4 +1,5 @@
 import styles from '../styles/home.module.css';
+import Image from 'next/image'
 
 export default function Home() {
     return (
@@ -7,7 +8,12 @@ export default function Home() {
                 <div className={styles.headerContent}>
                     <section className={styles.logoSection}>
                         <div>
-                            <img className={styles.logo} src="/logo.jpeg" alt="logo"/>
+                            <Image
+                                src={'/logo.jpeg'}
+                                alt={'Picture of logo'}
+                                width={500}
+                                height={500}
+                            />
                         </div>
                     </section>
                 </div>
@@ -32,7 +38,12 @@ export default function Home() {
 
             <section className={styles.ownerSection}>
                 <div>
-                    <img src="/czeyzer.png" alt="czeyzer barber foto"/>
+                    <Image
+                        src={'/czeyzer.png'}
+                        alt={'Picture of barber named czeyzer'}
+                        width={500}
+                        height={500}
+                    />
                     <p>
                         <a className={styles.contactInfo} href={'https://www.instagram.com/czeyzer/'}>
                             <strong>@czeyzer</strong>
@@ -43,7 +54,12 @@ export default function Home() {
                     </p>
                 </div>
                 <div>
-                    <img src="/donpavko.png" alt="donpavko barber foto"/>
+                    <Image
+                        src={'/donpavko.png'}
+                        alt={'Picture of barber named donpavko'}
+                        width={500}
+                        height={500}
+                    />
                     <p>
                         <a className={styles.contactInfo} href={'https://www.instagram.com/donpavko/'}>
                             <strong>@donpavko</strong>
